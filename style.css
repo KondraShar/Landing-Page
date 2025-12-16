@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto";
+    
+}
+
+/* 
+//////////////////////////////////
+
+/////////// Header ///////////////
+                &
+//////////  Footer ///////////////
+
+//////////////////////////////////
+*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 60px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 15%;
+}
+.header-links {
+    
+    margin-right: 15%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    
+}
+
+li {
+    /* */
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    list-style: none;
+}
+
+/*
+/////////  OUR MISSION - DIV //////////
+
+*/
+
+.course-container {
+    display: flex;
+}
+
+
+
+/*  
+///////////////////////////////////////
+                
+//////////  Combined Classes //////////
+
+///////////////////////////////////////
+
+
+*/
+
+.header, 
+.footer,
+.call-to-action,
+.our-mission {
+    color: #F9FAF8;
+}
+
+.header,
+.footer,
+.our-mission {
+    background-color: #1F2937;
+    
+}
