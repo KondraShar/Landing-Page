@@ -26,3 +26,9 @@ CS basic pic by **This_is_Engineering**
 
 https://pixabay.com/de/photos/techniker-ingenieurwesen-rechner-4904884/
 
+
+
+laptop pic by **Buffik**
+
+https://pixabay.com/de/photos/business-technology-stadt-line-5475661/
+
