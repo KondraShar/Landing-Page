@@ -70,6 +70,17 @@ a {
     display: flex;
 }
 
+/*  
+///////////////////////////////////////
+                
+//////////  Combined Classes //////////
+
+///////////////////////////////////////
+*/
+
+.call-to-action {
+    background-color: rgb(54,131,241);
+}
 
 
 /*  
@@ -95,3 +106,18 @@ a {
     background-color: #1F2937;
     
 }
+
+/*
+//////////// temporary solution /////////
+
+
+
+.our-mission,
+.course-info,
+.quote,
+.call-to-action {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+*/
