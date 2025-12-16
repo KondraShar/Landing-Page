@@ -66,6 +66,18 @@ a {
 
 */
 
+.our-mission {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.first-catch, h2 {
+    margin: 0px;
+}
+
+
+
 .course-container {
     display: flex;
 }
@@ -111,8 +123,8 @@ a {
 //////////// temporary solution /////////
 
 
-
-.our-mission,
+*/
+.first-catch,
 .course-info,
 .quote,
 .call-to-action {
@@ -120,4 +132,3 @@ a {
     margin-left: 15%;
 }
 
-*/
