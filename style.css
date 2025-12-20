@@ -76,7 +76,6 @@ a:visited {
 .our-mission {
     display: flex;
     justify-content: center;
-
 }
 
 .our-mission-content {
@@ -119,11 +118,15 @@ a:visited {
     justify-content: center;
     align-items: center;
     padding-bottom: 70px;
+
+    color: #1F2937;
 }
 
 .course-info > h2 {
     margin: 0;
     padding: 40px;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .course-container {
@@ -150,6 +153,15 @@ a:visited {
     padding-bottom: 60px;
 }
 
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    font-weight: 600;
+}
 
 /*  
 //////////////////////////////////
