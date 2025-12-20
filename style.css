@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 /* 
@@ -24,17 +24,13 @@ body {
 
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
 }
 
-.header-links {
-    font-size: 18px;
-    color: #E5E7EB;
-}
 
 ul {
-    list-style-type: none;
     padding-inline-start: 0;
     display: flex;
     justify-content: space-between;
@@ -42,15 +38,21 @@ ul {
 }
 
 li {
-    /* */
     padding: 10px;
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
-    list-style: none;
 }
+
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: inherit;
+}
+
 
 /*
 //////////////////////////////////
@@ -80,8 +82,8 @@ a {
 .our-mission-content {
     display: flex;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 100px;
     justify-content: space-between;
 }
 
@@ -89,14 +91,20 @@ a {
     align-self: flex-start;
     display: flex;
     flex-direction: column;
-    width: 260px;
+    width: 380px;
     flex-shrink: 0;
     justify-content: flex-start;
 }
 
-.first-catch > h2 {
-    margin: 0px;
-    line-height: 1.5em;
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+.first-catch > button {
+    margin-top: 12px;
+    border-color: #3882f8;
 }
 
 /*
@@ -120,7 +128,7 @@ a {
 
 .course-container {
     display: flex;
-    
+
 }
 
 
@@ -150,15 +158,14 @@ a {
 */
 
 .call-to-action {
-    background-color: rgb(54,131,241);
+    background-color: #3882f8;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
 .call-to-action > button {
-    width: 100px;
-    height: 30px;
+    border-color: white;
 }
 
 
@@ -201,6 +208,11 @@ body > .course-info,
     padding-left: 12px;
 }
 
+.hero-sec-text,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 /*  
 //////////////////////////////////
@@ -210,4 +222,15 @@ body > .course-info,
 
 .action-container {
     padding: 30px;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    background-color: #3882f8;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 6px;
+    box-shadow: none;
 }
