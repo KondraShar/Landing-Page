@@ -3,16 +3,11 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: "Roboto";
-    
 }
 
 /* 
 //////////////////////////////////
-
 /////////// Header ///////////////
-                &
-//////////  Footer ///////////////
-
 //////////////////////////////////
 */
 
@@ -56,9 +51,13 @@ a {
     color: #F9FAF8;
     list-style: none;
 }
+
 /*
-////// FOOTER //////////
+//////////////////////////////////
+/////////// Footer ///////////////
+//////////////////////////////////
 */
+
 .footer {
     display: flex;
     justify-content: center;
@@ -67,8 +66,9 @@ a {
 }
 
 /*
-/////////  OUR MISSION - DIV //////////
-
+//////////////////////////////////
+///// Our Mission - div //////////
+//////////////////////////////////
 */
 
 .our-mission {
@@ -81,7 +81,7 @@ a {
     display: flex;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     justify-content: space-between;
 }
 
@@ -99,41 +99,78 @@ a {
     line-height: 1.5em;
 }
 
-img {
-    flex-shrink: 3;
+/*
+//////////////////////////////////
+////////// Course Info ///////////
+//////////////////////////////////
+*/
+
+.course-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
 }
 
+.course-info > h2 {
+    margin: 0;
+    padding: 40px;
+}
 
 .course-container {
     display: flex;
 }
 
 
-.quote {
-    background-color: bisque;
-}
-/*  
-///////////////////////////////////////
-                
-//////////  Combined Classes //////////
 
-///////////////////////////////////////
+/*  
+//////////////////////////////////
+///////////   Quote  /////////////
+//////////////////////////////////
+*/
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/*  
+//////////////////////////////////
+/////   Call-to-Action  //////////
+//////////////////////////////////
 */
 
 .call-to-action {
     background-color: rgb(54,131,241);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.call-to-action > button {
+    width: 100px;
+    height: 30px;
 }
 
 
 /*  
-///////////////////////////////////////
-                
-//////////  Combined Classes //////////
-
-///////////////////////////////////////
-
-
+//////////////////////////////////
+//////// Combined Classes ////////
+//////////////////////////////////
 */
+
+body > .course-info,
+.action-container {
+    align-self: center;
+}
 
 .header, 
 .footer,
@@ -151,11 +188,25 @@ img {
 
 
 .header-content,
-.our-mission-content
+.our-mission-content,
+.course-info,
+.quote-content,
+.action-container
 {
     width: 60vw;
     flex-basis: 1;
-    width: 900px;
+    width: 800px;
     padding-right: 12px;
     padding-left: 12px;
+}
+
+
+/*  
+//////////////////////////////////
+//////////  Overwriting  /////////
+//////////////////////////////////
+*/
+
+.action-container {
+    padding: 30px;
 }
