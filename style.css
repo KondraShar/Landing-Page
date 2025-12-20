@@ -18,25 +18,22 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.footer {
+.header-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    height: 60px;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
-    margin-left: 15%;
+    display: flex;
+    align-items: center;
 }
+
 .header-links {
-    
-    margin-right: 15%;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -47,7 +44,6 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 22px;
-    
 }
 
 li {
@@ -60,6 +56,15 @@ a {
     color: #F9FAF8;
     list-style: none;
 }
+/*
+////// FOOTER //////////
+*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
 
 /*
 /////////  OUR MISSION - DIV //////////
@@ -68,20 +73,45 @@ a {
 
 .our-mission {
     display: flex;
+    justify-content: center;
+
+}
+
+.our-mission-content {
+    display: flex;
     align-items: center;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
 }
 
-.first-catch, h2 {
+.first-catch {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    flex-shrink: 0;
+    justify-content: flex-start;
+}
+
+.first-catch > h2 {
     margin: 0px;
+    line-height: 1.5em;
 }
 
+img {
+    flex-shrink: 3;
+}
 
 
 .course-container {
     display: flex;
 }
 
+
+.quote {
+    background-color: bisque;
+}
 /*  
 ///////////////////////////////////////
                 
@@ -119,16 +149,13 @@ a {
     
 }
 
-/*
-//////////// temporary solution /////////
 
-
-*/
-.first-catch,
-.course-info,
-.quote,
-.call-to-action {
-    margin-right: 15%;
-    margin-left: 15%;
+.header-content,
+.our-mission-content
+{
+    width: 60vw;
+    flex-basis: 1;
+    width: 900px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
-
