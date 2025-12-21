@@ -173,8 +173,8 @@ a:visited {
 }
 
 .quote-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote-text {
@@ -185,6 +185,8 @@ a:visited {
 
 .author {
     font-weight: 600;
+    padding-top: 10px;
+    justify-self: flex-end;
 }
 
 /*  
@@ -269,4 +271,9 @@ button {
     font-weight: 800;
     border-radius: 6px;
     box-shadow: none;
+}
+
+.quote-content {
+    padding-right: 60px;
+    padding-left: 60px;
 }
